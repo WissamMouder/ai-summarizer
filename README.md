@@ -31,21 +31,82 @@ This app is  an AI Automation web application built with Laravel 12 that generat
 
 ## Installation
 
+## Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/WissamMouder/ai-summarizer.git
+```
+
+Navigate to the project directory:
+
+```bash
 cd ai-summarizer
+```
+
+Install PHP dependencies:
+
+```bash
 composer install
+```
+
+Install JavaScript dependencies:
+
+```bash
 npm install
+```
+
+Create the environment file:
+
+```bash
 cp .env.example .env
+```
+
+Generate the application key:
+
+```bash
 php artisan key:generate
+```
+
+Run the database migrations:
+
+```bash
 php artisan migrate
+```
+
+Start the Vite development server:
+
+```bash
 npm run dev
+```
+
+Start the Laravel development server:
+
+```bash
 php artisan serve
+```
 
-Configure your API key in `.env`:
+Open the application in your browser:
 
-GROQ_API_KEY=your_api_key_here   You can create a free API key by visiting:
+```text
+http://127.0.0.1:8000
+```
+
+## API Key
+
+This application requires a **Groq API key** to generate AI-powered summaries.
+
+Create a free API key at:
 
 https://console.groq.com/keys
+
+Then add your API key to the `.env` file:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
 
 ## Demo Application 
 
