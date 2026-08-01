@@ -6,7 +6,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-**AI Summarizer Application Using the Groq API**
+
+# AI Summarizer Application Using the Groq API
 This app is  an AI Automation web application built with Laravel 12 that generates concise summaries from long texts using the Groq API and the ##Llama 3.3 70B Versatile model. The application includes a secure authentication system powered by ##Laravel Breeze, allowing users to register, log in, and securely access the summarization interface.
 
 ## Features
